@@ -1,0 +1,392 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "domainName": "pmoderna",
+      "active":  "Y",
+      "personal": {
+        "firstName": "Pfizer",
+        "middleName": "",
+        "surName": "",
+        "lastName": "Moderna",
+        "dateOfBirth": "01/01/1980",
+        "gender": "M",
+        "email": "pmoderna@aol.com",
+        "homePhone": "",
+        "mobilePhone": "",
+        "workPhone": "",
+        "maritalStatusId": 2
+      },
+      "address": {
+        "countryId": "1",
+        "stateId": "1",
+        "cityId": "1",
+        "zipCode": "64501",
+        "street": "Ave. Morones Prieto",
+        "streetNumber": "2000",
+        "suburb": "Nuevas Colonias"
+      },
+      "vehicle":  {
+        "model": "Tesla Model S",
+        "color": "Red",
+        "plates": "IPS 000 00",
+        "parkingLotCard": "IPS 000 00"
+      },
+      "family": [
+        {
+          "firstName": "Susana",
+          "surName": "",
+          "lastName":  "Distancia",
+          "dateOfBirth": "01/01/1981",
+          "gender": "F",
+          "relationId": 1
+        },
+        {
+          "firstName": "Astra",
+          "surName": "Zeneca",
+          "lastName":  "Johnson & Johnson",
+          "dateOfBirth": "01/01/2000",
+          "gender": "M",
+          "relationId": 2
+        }
+      ],
+      "contacts": [
+        {
+          "name": "Susana Distancia",
+          "email": "sdistancia@gmail.com",
+          "homePhone": "",
+          "mobilePhone": "",
+          "workPhone": "",
+          "relationId": 1
+        },
+        {
+          "name": "Usa Tu Mascara",
+          "email": "utmascara@gmail.com",
+          "homePhone": "",
+          "mobilePhone": "",
+          "workPhone": "",
+          "relationId": 2
+        }
+      ],
+      "work": {
+        "positionId": 2,
+        "levelId": 2,
+        "startDate": "01/01/2020",
+        "countryId": 1,
+        "extension": "1234",
+        "email": "pmoderna@ipointsystems.com",
+        "workbeatNumber": "987654321"
+      },
+      "workHistory": [
+        {
+          "positionId": 2,
+          "levelId": 7,
+          "startDate": "01/01/2019"
+        },
+        {
+          "positionId": 2,
+          "levelId": 6,
+          "startDate": "01/01/2018"
+        },
+        {
+          "positionId": 2,
+          "levelId": 4,
+          "startDate": "01/01/2016"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "domainName": "mmartinez",
+      "active":  "Y",
+      "personal": {
+        "firstName": "Malcolm",
+        "middleName": "Raymundo",
+        "surName": "Salcedo",
+        "lastName": "Martinez",
+        "dateOfBirth": "08/27/1980",
+        "gender": "M",
+        "email": "mmartinez@hotmail.com",
+        "homePhone": "",
+        "mobilePhone": "",
+        "workPhone": "",
+        "maritalStatusId": 2
+      },
+      "address": {
+        "countryId": "1",
+        "stateId": "1",
+        "cityId": "1",
+        "zipCode": "64400",
+        "street": "Ave. Revolucion",
+        "streetNumber": "506",
+        "suburb": "Col. Modelo"
+      },
+      "vehicle":  {
+        "model": "Tesla Model S",
+        "color": "Red",
+        "plates": "IPS 000 00",
+        "parkingLotCard": "IPS 000 00"
+      },
+      "family": [
+        {
+          "firstName": "Gloria Hortensia",
+          "surName": "Rodriguez del Vasco",
+          "lastName":  "Robledo",
+          "dateOfBirth": "08/27/1980",
+          "gender": "F",
+          "relationId": 1
+        },
+        {
+          "firstName": "Malcolm Raymundo",
+          "surName": "Salcedo",
+          "lastName":  "Rodriguez del Vasco",
+          "dateOfBirth": "08/27/2015",
+          "gender": "M",
+          "relationId": 2
+        },
+        {
+          "firstName": "Malcolm Raymundo",
+          "surName": "Salcedo",
+          "lastName":  "Rodriguez del Vasco",
+          "dateOfBirth": "08/27/2015",
+          "gender": "M",
+          "relationId": 2
+        }
+      ],
+      "contacts": [
+        {
+          "name": "Gloria Hortensia Rodriguez del Vasco Martinez",
+          "email": "",
+          "homePhone": "(81) 1801 0868",
+          "mobilePhone": "",
+          "workPhone": "",
+          "relationId": 6
+        },
+        {
+          "name": "Ernesto Gonzalez",
+          "email": "",
+          "homePhone": "(81) 1801 0868",
+          "mobilePhone": "",
+          "workPhone": "",
+          "relationId": 5
+        }
+      ],
+      "work": {
+        "positionId": 2,
+        "levelId": 2,
+        "startDate": "01/01/2020",
+        "countryId": 1,
+        "extension": "1234",
+        "email": "pmoderna@ipointsystems.com",
+        "workbeatNumber": "987654321"
+      },
+      "workHistory": [
+        {
+          "positionId": 2,
+          "levelId": 7,
+          "startDate": "01/01/2019"
+        },
+        {
+          "positionId": 2,
+          "levelId": 6,
+          "startDate": "01/01/2018"
+        },
+        {
+          "positionId": 2,
+          "levelId": 4,
+          "startDate": "01/01/2016"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    {
+      "id": 1,
+      "code": "MX",
+      "name": "Mexico"
+    },
+    {
+      "id": 2,
+      "code": "USA",
+      "name": "United States of America"
+    }
+  ],
+  "states": [
+    {
+      "id": 1,
+      "code": "NL",
+      "name": "Nuevo Leon",
+      "countryId": 1
+    },
+    {
+      "id": 2,
+      "code": "CO",
+      "name": "Coahuila",
+      "countryId": 1
+    }
+  ],
+  "cities": [
+    {
+      "id": 1,
+      "name": "Monterrey",
+      "stateId": 1
+    },
+    {
+      "id": 2,
+      "name": "Guadalupe",
+      "stateId": 1
+    },
+    {
+      "id": 3,
+      "name": "Apodaca",
+      "stateId": 1
+    },
+    {
+      "id": 4,
+      "name": "General Escobedo",
+      "stateId": 1
+    },
+    {
+      "id": 5,
+      "name": "San Nicolas de los Garza",
+      "stateId": 1
+    },
+    {
+      "id": 6,
+      "name": "San Pedro",
+      "stateId": 1
+    },
+    {
+      "id": 7,
+      "name": "Santa Catarina",
+      "stateId": 1
+    },
+    {
+      "id": 8,
+      "name": "Saltillo",
+      "stateId": 2
+    }
+  ],
+  "positions": [
+    {
+      "id": 1,
+      "name": "Software Engineer Jr"
+    },
+    {
+      "id": 2,
+      "name": "Software Engineer Sr"
+    },
+    {
+      "id": 3,
+      "name": "Technical Leader"
+    },
+    {
+      "id": 4,
+      "name": "Principal"
+    },
+    {
+      "id": 5,
+      "name": "Business Analyst Jr"
+    },
+    {
+      "id": 6,
+      "name": "Business Analyst Sr"
+    },
+    {
+      "id": 7,
+      "name": "Quality Assurance Jr"
+    },
+    {
+      "id": 8,
+      "name": "Quality Assurance Sr"
+    }
+  ],
+  "levels": [
+    {
+      "id": 1,
+      "name": "N/A"
+    },
+    {
+      "id": 2,
+      "name": "A1"
+    },
+    {
+      "id": 3,
+      "name": "A2"
+    },
+    {
+      "id": 4,
+      "name": "B1"
+    },
+    {
+      "id": 5,
+      "name": "B2"
+    },
+    {
+      "id": 6,
+      "name": "C1"
+    },
+    {
+      "id": 7,
+      "name": "C2"
+    },
+    {
+      "id": 8,
+      "name": "D1"
+    },
+    {
+      "id": 9,
+      "name": "D2"
+    }
+  ],
+  "relations": [
+    {
+      "id": 1,
+      "code": "SP",
+      "name": "Spouse"
+    },
+    {
+      "id": 2,
+      "code": "CH",
+      "name": "Children"
+    },
+    {
+      "id": 3,
+      "code": "PA",
+      "name": "Parent"
+    },
+    {
+      "id": 4,
+      "code": "SI",
+      "name": "Sibling"
+    },
+    {
+      "id": 5,
+      "code": "FR",
+      "name": "Friend"
+    },
+    {
+      "id": 6,
+      "code": "IL",
+      "name": "In Laws"
+    }
+  ],
+  "maritalStatuses": [
+    {
+      "id": 1,
+      "name": "Single"
+    },
+    {
+      "id": 2,
+      "name": "Married"
+    },
+    {
+      "id": 3,
+      "name": "Divorced"
+    },
+    {
+      "id": 4,
+      "name": "Widower"
+    }
+  ]
+}
